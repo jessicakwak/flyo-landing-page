@@ -8,17 +8,9 @@ h1,h2{
   font-weight:700;
 }
 
-#navbar{
-  margin:3%;
-  font-family: 'Raleway';
-}
 .nav-menu{
   margin:0 10px;
   color:hsl(238, 22%, 44%);
-}
-
-#intro{
-  padding:3% 5% 10%;
 }
 
 .intro-img img, .hiw-img img{
@@ -84,14 +76,15 @@ input.getstarted-input{
   }
   }
 
-#how-it-works{
-  padding:7% 5%;
-  background-color: hsl(240, 75%, 98%);
-}
 
-#how-it-works a{
+
+.hwi-link{
   color: hsl(170, 45%, 43%);
   text-decoration: underline;
+}
+
+.hwi-container{
+  background-color:hsl(240, 75%, 98%);
 }
 
 
@@ -125,12 +118,6 @@ input.getstarted-input{
   font-size:0.8rem;
 }
 
-#cta{
-  padding:7%;
-  background-color:hsl(238, 22%, 44%);
-  color:white;
-  font-family: 'Raleway';
-}
 
 #footer-menu{
   background-color: hsl(243, 87%, 12%);
@@ -139,13 +126,13 @@ input.getstarted-input{
   font-size :0.8rem;
 }
 
-#cta h2{
-  margin-bottom:6%;
-}
 
 .cta-col{
-  padding:2% 10% 2% 3%;
+  padding:5%;
+  background-color:hsl(238, 22%, 44%);
+  color:white;
 }
+
 
 .footer-list,li{
   list-style-type: none;
